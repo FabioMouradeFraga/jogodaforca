@@ -1,0 +1,35 @@
+body {
+	background-color: #101010;
+}
+h1{
+	text-align: center;
+	font-family: arial-narrow;
+	font-size: 40px;
+	color: #F5FFFA;
+}
+h2{text-align: center;
+	font-family: arial-narrow;
+	font-size: 30px;
+	color: #F5FFFA;
+}
+h3{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #900090; 
+	text-align: center;
+	font-size: 40px;
+}
+img{ 
+	height: 400px;
+	width: 400px;
+	border-radius: 100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;	
+}
+figure{ 
+	text-align: center;
+	margin: auto;
+
+}

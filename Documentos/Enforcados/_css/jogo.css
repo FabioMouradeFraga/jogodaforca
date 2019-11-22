@@ -1,0 +1,104 @@
+body{
+	background-color: #101010;
+}
+/*ediçao de abertas*/
+
+#abertas table{
+width: 390px;
+height: 60px; 
+margin: auto;
+padding-top: 30px;
+}
+
+#abertas td{
+	background-color: white;
+	display: table-cell; 
+	text-align: center;
+	width: 360px;
+	height: 30px;
+
+}
+#abertas h1{
+	text-align: center;
+	color: #fff;	
+}
+#abertas h3{
+	text-align: center;
+	color: #b0e0e6;
+}
+
+/*teclado*/
+
+#teclado tr{
+	margin: auto;
+	display: flex;
+	list-style: none;
+	width: 490px;
+	height: 22px;
+	text-align: center;
+}
+
+#teclado td{
+	background-color: #101010;
+	width: 67.5px;
+	height: 20px;
+}
+
+#teclado td a, #teclado td span{
+	text-align: center;
+	width: 40px;
+	height: 40px; 
+	background-color: #f6ea11; 
+	padding: 0 1em; 
+	margin: auto;
+	text-decoration: none;
+}
+
+#teclado td span{
+    width: 40px;
+	height: 32px; 
+	background-color: #08f; 
+	padding: 0 1em; 
+	margin: 1px;
+	text-decoration: none;
+}
+
+#teclado h2{
+	text-align: center;
+	font-size: 15px;
+	color: #fc1aa7;
+}
+#teclado h3{
+	text-align:center;
+	color: #db0211;
+	font-size: 15px;
+}
+#teclado h4{
+	text-align: center;
+	color: #018b36;
+	font-size: 15px;
+}
+#teclado img{
+	text-align: center; 
+	height: 200px; 
+	width: 200px;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+}
+#teclado h5{
+	text-align: center;
+}
+#teclado h5 a{
+	text-decoration: none; 
+	color:#fff;
+}
+#teclado h6 {
+	text-align: center;
+	font-family: arial-narrow;
+	font-size: 40px;"
+}
+#teclado h6 a{
+	text-decoration: none; 
+	color: #900090
+}

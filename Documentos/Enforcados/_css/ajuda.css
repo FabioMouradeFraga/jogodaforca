@@ -1,0 +1,28 @@
+/* formataçao de backgraund*/
+body {
+	background-color: #101010;
+}
+/* formataçao do corpo do texto*/
+h1{
+	text-align: center; 
+	font-family: arial-narrow;
+	font-size: 100px;
+	color: #F5FFFa;
+}
+p{
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 35px;
+	font-family: Helvética;
+	color: #F5FFFA;
+}
+h3{
+	text-align: center;
+}
+/* ediçao do link*/
+a{
+	text-decoration: none;
+	color: #900090;
+	text-align: center;
+	font-size: 40px;
+}
