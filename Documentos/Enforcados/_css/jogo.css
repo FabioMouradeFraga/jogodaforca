@@ -1,5 +1,8 @@
 body{
-	background-color: #101010;
+	background-image: url("/_imagens/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 /*ediçao de abertas*/
 
@@ -7,7 +10,7 @@ body{
 width: 390px;
 height: 60px; 
 margin: auto;
-padding-top: 30px;
+padding-top: 25px;
 }
 
 #abertas td{
@@ -21,6 +24,13 @@ padding-top: 30px;
 #abertas h1{
 	text-align: center;
 	color: #fff;	
+}
+#abertas h2 {
+	text-align: center;	
+}
+#abertas h2 a {
+	text-decoration: none; 
+	color: #00FFFF;	
 }
 #abertas h3{
 	text-align: center;
@@ -45,6 +55,7 @@ padding-top: 30px;
 }
 
 #teclado td a, #teclado td span{
+	color: black;
 	text-align: center;
 	width: 40px;
 	height: 40px; 
@@ -54,7 +65,7 @@ padding-top: 30px;
 	text-decoration: none;
 }
 
-#teclado td span{
+#teclado td span {
     width: 40px;
 	height: 32px; 
 	background-color: #08f; 
@@ -90,15 +101,22 @@ padding-top: 30px;
 	text-align: center;
 }
 #teclado h5 a{
+	font-size: 20px;
 	text-decoration: none; 
-	color:#fff;
+	color:#B0E0E6;
 }
 #teclado h6 {
 	text-align: center;
 	font-family: arial-narrow;
 	font-size: 40px;"
 }
-#teclado h6 a{
+
+h5 {
+	text-align: center;
+}
+
+h5 a{
 	text-decoration: none; 
-	color: #900090
+	color: #900090;
+	font-size: 40px;
 }

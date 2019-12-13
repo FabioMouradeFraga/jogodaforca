@@ -1,54 +1,66 @@
-//Palavras do Jogo
-
 var palavras = new Array()  
-palavras[0] = "LAÇO",
-palavras[1] = "PORTA",
-palavras[2] = "DATAGRAMA",
-palavras[3] = "KERNEL",
-palavras[4] = "PROCESSADOR",
-palavras[5] = "ENLACE",
-palavras[6] = "IFCONFIG",
-palavras[7] = "HTTP",
-palavras[8] = "URL",
-palavras[9] = "CSS",
-palavras[10] = "JAVASCRIPT",
-palavras[11] = "HTML",
-palavras[12] = "ARRAY",
-palavras[13] = "MYSQL",
-palavras[14] = "CONSTANTE",
-palavras[15] = "NODEJS",
-palavras[16] = "SUBLIME",
-palavras[17] = "BACKBONE",
-palavras[18] = "SERVIDOR",
-palavras[19] = "CLIENTE",
-palavras[20] = "WIRELESS",
-palavras[21] = "ALLAN";
+palavras[0] = "LOL",
+palavras[1] = "BARALHO",
+palavras[2] = "CENTAURO",
+palavras[3] = "CINEMA",
+palavras[4] = "RANKEADA",
+palavras[5] = "TECLADO",
+palavras[6] = "FREVO",
+palavras[7] = "GOOGLE",
+palavras[8] = "PROVA",
+palavras[9] = "FACEBOOK",
+palavras[10] = "TETRIS",
+palavras[11] = "PEACH",
+palavras[12] = "CATERPIE",
+palavras[13] = "VINGADORES",
+palavras[14] = "CORINGA",
+palavras[15] = "COUNTERSTRIKE",
+palavras[16] = "DEADPOOL",
+palavras[17] = "MINECRAFT",
+palavras[18] = "NARUTO",
+palavras[19] = "SUPERNATURAL",
+palavras[20] = "ACDC",
+palavras[21] = "ALQUIMIA",
+palavras[22] = "FILOSOFIA",
+palavras[23] = "GUITARRA",
+palavras[24] = "GAMEOFTHRONES",
+palavras[25] = "SHENLONG",
+palavras[26] = "MAC",
+palavras[27] = "PROCESSADOR",
+palavras[28] = "URL",
+palavras[29] = "WIRELESS";
 
 var dicas = new Array()
-dicas[0] = "EXECUÇÃO REPETIDAS VEZES DE DETERMINADA(S) LINHA(S) DE UM CÓDIGO",
-dicas[1] = "CONEXÃO VIRTUAL QUE PODE SER USADA NA TRANSMISSÃO DE DADOS",
-dicas[2] = "PODE SER DO TIPO UDP OU IP",
-dicas[3] = "NÚCLEO DO SISTEMA OPERACIONAL",
-dicas[4] = "CÉREBRO DO COMPUTADOR",
-dicas[5] = "CAMADA NA QUAL HÁ TRANSMISSÃO DE QUADROS/FRAMES",
-dicas[6] = "COMANDO DO LINUX QUE OFERECE INFORMAÇÕES SOBRE O IP DA REDE",
-dicas[7] = "PROTOCOLO DE TRANSFERÊNCIA DE HIPERTEXTO",
-dicas[8] = "ENDEREÇO DISPONÍVEL EM UMA REDE",
-dicas[9] = "FERRAMENTA DE ESTILO",
-dicas[10] = "LINGUAGEM DE PROGRAMAÇÃO MAIS UTILIZADA NO MUNDO (2019)",
-dicas[11] = "LINGUAGEM DE MARCAÇÃO",
-dicas[12] = "ESTRUTURA DE DADOS QUE PODE ARMAZENAR DIVERSOS VALORES",
-dicas[13] = "FAMOSO SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS",
-dicas[14] = "ESPAÇO RESERVADO NA MEMÓRIA QUE NÃO MUDA DE VALOR",
-dicas[15] = "INTERPRETADOR DE JAVASCRIPT",
-dicas[16] = "SOFTWARE UTLIZADO PARA EDITAR CÓDIGO-FONTE",
-dicas[17] = "ESPINHA DORSAL/REDE PRINCIPAL",
-dicas[18] = "SOFTWARE OU COMPUTADOR RESPONSÁVEL POR FORNECER SERVIÇO(S)",
-dicas[19] = "ENTIDADE QUE CONSOME O(S) SERVIÇO(S) DE UMA ENTIDADE SERVIDORA",
-dicas[20] = "REDE SEM FIO",
-dicas[21] = "EXÍMIO PROFESSOR, EXCELENTE PROFISSIONAL E PROGRAMADOR (DÁ AULA DE LÓGICA DE PROGRAMAÇÃO NO IFPE CAMPUS IGARASSU)";
-
-//Teclado
+dicas[0] = "MOBA MAIS JOGADO E MAIS FAMOSO DA ATUALIDADE (2019)",
+dicas[1] = "POSSUI 4 NAIPES",
+dicas[2] = "CRIATURA METADE HOMEM E CAVALO",
+dicas[3] = "7ª ARTE",
+dicas[4] = "PARTIDA EM GAMES VIRTUAIS ONDE SE GANHA OU PERDE PONTOS",
+dicas[5] = "É COMUM ENCONTRAR O DO TIPO ABNT2",
+dicas[6] = "RITMO MUSICAL CARNAVALESCO DE ORIGEM PERNAMBUCANA",
+dicas[7] = "MECANISMO DE PESQUISA MAIS UTILIZADO NO MUNDO",
+dicas[8] = "EXAME COMUM QUE AVALIA O CONHECIMENTO",
+dicas[9] = "REDE SOCIAL MAIS UTILIZADA NO MUNDO (2019)",
+dicas[10] = "JOGO ELETRÔNICO BEM ANTIGO (1984)",
+dicas[11] = "PRINCESA DO JOGO MARIO",
+dicas[12] = "PRIMEIRO POKÉMON QUE ASH CAPTURA",
+dicas[13] = "PRINCIPAL GRUPO DE HERÓIS DA MARVEL",
+dicas[14] = "VILÃO MAIS FAMOSO DA DC",
+dicas[15] = "JOGO DE FPS DE MUITO SUCESSO",
+dicas[16] = "ANTI-HERÓI MAIS ZOEIRO DA MARVEL",
+dicas[17] = "JOGO DE BLOCOS E AVENTURA",
+dicas[18] = "O CLÃ UCHIHA FAZ PARTE DO ANIME OU MANGÁ",
+dicas[19] = "IRMÃOS WINCHESTER",
+dicas[20] = "BANDA DE ROCK EXTREMAMENTE FAMOSA",
+dicas[21] = "'CIÊNCIA MÍSTICA' DA ANTIGUIDADE",
+dicas[22] = "CIÊNCIA QUE TRATA SOBRE RAZÃO, EXISTÊNCIA, ENTRE OUTROS ASSUNTOS",
+dicas[23] = "INSTRUMENTO DE CORDAS",
+dicas[24] = "SÉRIE QUE POSSUI OS DOTHRAKI",
+dicas[25] = "DRAGÃO MÁGICO DO ANIME E MANGÁ DRAGON BALL",
+dicas[26] = "ENDEREÇO FÍSICO DE UMA MÁQUINA",
+dicas[27] = "'CÉREBRO' DO COMPUTADOR",
+dicas[28] = "ENDEREÇO DISPONÍVEL EM UMA REDE",
+dicas[29] = "REDE SEM FIO";
 
 var teclado = [
     ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -56,26 +68,28 @@ var teclado = [
     ["Z", "X", "C", "V", "B", "N", "M"]
 ];
 
-var random = Math.floor(Math.random()*22);
+var random = Math.floor(Math.random()*30);
 
-//Função para partir uma string
+var guardar = [];
 
-var palavra = palavras[random].split("");
+var palavra = palavras[random];
 
 var abertas = [];
+
 var erro = 0;
+
 var acerto = 0;
+
 var soma = 0;
+
+var session = [];
+
 var array = [];
+
 var letras = [];
 for (e = 0; e < palavra.length; e++) {
     abertas[e] = '';
 }
-teclado = [
-["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
-["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç"],
-["Z", "X", "C", "V", "B", "N", "M"]
-];
     
 //Express é um(a) módulo/bliblioteca de JavaScript que você pode importar para outro código usando a função require() do Node.js.
 
@@ -106,21 +120,7 @@ app.set ('views', __dirname + '/views');
 //"app.get" mostra uma definição de rota.
 
 app.get ('/', function (req, res) {
-    random = Math.floor(Math.random()*22);
-    palavra = palavras[random].split("");
-	erro = 0;
-	acerto = 0;
-	soma = 0;
-    abertas = [];
-    letras = [];
-    for (e = 0; e < palavra.length; e++) {
-        abertas[e] = '';
-    }
-    teclado = [
-    ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
-    ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç"],
-    ["Z", "X", "C", "V", "B", "N", "M"]
-    ];
+    limpar();
     res.render ('index.html');
 });
 
@@ -147,6 +147,12 @@ app.get ('/jogo.html', function (req, res) {
     res.write('<body>');
     res.write('<div>');
 
+    var nextp = req.query.nextp || '';
+
+    if (nextp == '1') {
+        proximapalavra();
+    } 
+
     var letra = req.query.letra || '';
 
     if (letra != '') {
@@ -154,8 +160,9 @@ app.get ('/jogo.html', function (req, res) {
     }
 
     var reset = req.query.reset;
-
-    limpar (1);
+    if (reset == '1') {
+        limpar ();
+    }
     
     var letraok = false; 
 
@@ -168,33 +175,39 @@ app.get ('/jogo.html', function (req, res) {
             letraok = verificacao (letra) || letraok;
             res.write (`<td> ${abertas[y]} </td>`); 
         }
-        if (letraok) {
+        if (letraok && session.includes(letra) == false) {
+            session.push(letra);
             acerto++;
             res.write(`<audio autoplay="autoplay">`);
             res.write(`<source src="_sound/acertou.mp3", type="audio/mpeg";/>`);
             res.write(`</audio>`);
-        } else {
-            if (reset != 1 && letra != '') {
-                erro++;
-                res.write(`<audio autoplay="autoplay">`);
-                res.write(`<source src="_sound/errou.mp3", type="audio/mpeg";/>`);
-                res.write(`</audio>`);  
+        } else if (reset != 1 && letra != '' && session.includes(letra) == false){
+            session.push(letra);
+            erro++;
+            res.write(`<audio autoplay="autoplay">`);
+            res.write(`<source src="_sound/errou.mp3", type="audio/mpeg";/>`);
+            res.write(`</audio>`);  
+
         }
-            }
         if (soma == palavra.length && erro <= 6) {
         	res.write('<h1>VOCÊ VENCEU!</h1>');
             teclado = '';
+            res.write(`<h2> <a href= '/jogo.html?nextp=1'> IR PARA PRÓXIMA PALAVRA! </a> </h2>`);
+
         } else if (erro > 6){
             res.write('<h1>VOCÊ PERDEU!</h1>');
-            res.write(`<h3>A PALAVRA ERA: ${palavras[random]}</h3>`);
             teclado = '';
+            res.write(`<h2> <a href= '/jogo.html?nextp=1'> TENTE A SORTE NA PRÓXIMA PALAVRA! </a> </h2>`);
+            res.write(`<h3> A PALAVRA ERA: </h3>`);
         }
-            res.write (`</tr>`);
+        if (erro == 6) {
+            abertas = palavra;
+        }
+        res.write (`</tr>`);
     }
         
     res.write('</table>');
     res.write('</br>');
-
     res.write('<div id="teclado">');
     res.write(`<table>`)
     
@@ -219,18 +232,12 @@ app.get ('/jogo.html', function (req, res) {
     }
     
     res.write('</table>');
-
-    //console.log (teclado);
-    //console.log("erro", erro);
-
-    res.write (`<h2>`);
-    res.write (`QUANTIDADE DE LETRAS: ${palavra.length}`);
-    res.write (`</h2>`);
-
-    res.write (`<h3>`);
-    res.write (`QUANTIDADE DE ERROS: ${erro}`);
-    res.write (`</h3>`);
-
+    res.write(`<h2>`);
+    res.write(`QUANTIDADE DE LETRAS: ${palavra.length}`);
+    res.write(`</h2>`);
+    res.write(`<h3>`);
+    res.write(`QUANTIDADE DE ERROS: ${erro}`);
+    res.write(`</h3>`);
     res.write(`<h4>`);
     res.write(`DICA: ${dicas[random]}`);
     res.write(`</h4>`);
@@ -241,53 +248,81 @@ app.get ('/jogo.html', function (req, res) {
     }
 
     res.write('<h5>');
-    res.write('<a href= /jogo.html?reset=1>RESETAR OU IR PARA A PRÓXIMA PALAVRA</a>');
+    res.write('<a href= /jogo.html?reset=1>RESETAR</a>');
     res.write('</h5>');
-    
-    res.write(`<h6>`);
-    res.write(`<a  href="/">Voltar</a>`);
-    res.write(`</h6>`);
     res.write('</div>');
-
+    res.write(`<h5>`);
+    res.write(`<a  href="/">Voltar</a>`);
+    res.write(`</h5>`);
     res.write('</body>');
     res.write('</head>');
     res.write('</html>');
     res.end();
  
-    function limpar (valor) {
-        if (reset == 1) {
-            random = Math.floor(Math.random()*22);
-            palavra = palavras[random].split("");
-            acerto = 0;
-            erro = 0;
-            soma = 0;
-            array = [];
-            letras = [];
-            teclado = [
-            ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
-            ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç"],
-            ["Z", "X", "C", "V", "B", "N", "M"]
-            ];
-            for (e = 0; e < palavra.length; e++) {
-                abertas[e] = '';
-            }
-        }    
-    }
-
-    function verificacao (letra) {
-        if (letra == palavra[y]) {
-            abertas[y] = palavra[y];
-            array.push (1);
-            for (var q = 0; q < array.length; q++) {
-                soma = soma + array[q];
-                return soma;
-            }
-            return true;
-        }
-        return false;
-    }
-
 });
+
+function verificacao (letra) {
+    if (letra == palavra[y]) {
+        abertas[y] = palavra[y];
+        array.push (1);
+        for (var q = 0; q < array.length; q++) {
+            soma = soma + array[q];
+            return soma;
+        }
+        return true;
+    }
+    return false;
+}
+
+function limpar () {
+    random = Math.floor(Math.random()*30);
+    palavra = palavras[random];
+    acerto = 0;
+    erro = 0;
+    abertas = [];
+    soma = 0;
+    array = [];
+    letras = [];
+    session = [];
+    guardar = [];
+    teclado = [
+    ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+    ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç"],
+    ["Z", "X", "C", "V", "B", "N", "M"]
+    ];
+    for (e = 0; e < palavra.length; e++) {
+        abertas[e] = '';
+    }
+            
+}
+
+function proximapalavra () {
+    guardar.push(random);
+    if (guardar.length == palavras.length) {
+        limpar();
+    } else {
+        random = Math.floor(Math.random()*30);
+        while (guardar.includes(random)) {
+            random = Math.floor(Math.random()*30);
+        }
+        palavra = palavras[random];
+        acerto = 0;
+        erro = 0;
+        soma = 0;
+        array = [];
+        abertas = [];
+        letras = [];
+        session = [];
+        teclado = [
+        ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+        ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç"],
+        ["Z", "X", "C", "V", "B", "N", "M"]
+        ];
+        for (e = 0; e < palavra.length; e++) {
+            abertas[e] = '';
+        }
+    }
+}
 
 //"express.static" entrega arquivos estáticos.
 
